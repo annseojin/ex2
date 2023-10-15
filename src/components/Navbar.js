@@ -21,15 +21,6 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link
-                href="/blog"
-                className="nav-link active"
-                aria-current="page"
-              >
-                Blog
-              </Link>
-            </li>
-            <li className="nav-item">
               <Link href="/github" className="nav-link">
                 Github
               </Link>
