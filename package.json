@@ -17,5 +17,8 @@
     "dev": "next dev",
     "start": "next start",
     "build": "next build"
-  }
+  },
+  "description": "\"# ex2\"",
+  "devDependencies": {},
+  "author": ""
 }
