@@ -41,7 +41,7 @@ export const projects = [
     id: '1',
     name: '안서진',
     description: '92212893 / 프론트엔드',
-    image: 'p1.JPG',
+    image: 'p7.jpg',
   },
   {
     id: '2',
@@ -65,6 +65,6 @@ export const projects = [
     id: '5',
     name: '최중건',
     description: '92213134 / 백엔드',
-    image: 'p5.png',
+    image: 'p5.jpg',
   },
 ]

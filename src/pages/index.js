@@ -23,37 +23,54 @@ const Index = () => (
                 중부대학교 정보보호학전공 92212893
               </h3>
               <br />
-              <h3>✨ Contact ✨</h3>
+              <h3>✨ Contact me ✨</h3>
               <br />
               <p>
                 <a href="https://github.com/annseojin" target="_blank">
-                  <img src="https://img.shields.io/badge/github-181717?style=plastic&logo=github&logoColor=white" />
+                  <img
+                    src="https://img.shields.io/badge/github-181717?style=plastic&logo=github&logoColor=white"
+                    width={100}
+                    height={40}
+                  />
                 </a>
                 &nbsp;&nbsp;&nbsp;
                 <a
                   href="https://www.notion.so/b5b73aad2b77443498943b806f225343"
                   target="_blank"
                 >
-                  <img src="https://img.shields.io/badge/Notion-000000?style=plastic&logo=Notion&logoColor=white" />
+                  <img
+                    src="https://img.shields.io/badge/Notion-000000?style=plastic&logo=Notion&logoColor=white"
+                    width={100}
+                    height={40}
+                  />
                 </a>
                 &nbsp;&nbsp;&nbsp;
                 <a href="https://sejin0902.tistory.com/" target="_blank">
-                  <img src="https://img.shields.io/badge/Tistory-000000?style=plastic&logo=Tistory&logoColor=white" />
+                  <img
+                    src="https://img.shields.io/badge/Tistory-000000?style=plastic&logo=Tistory&logoColor=white"
+                    width={100}
+                    height={40}
+                  />
                 </a>
                 &nbsp;&nbsp;&nbsp;
                 <br />
                 <br />
                 <a href="https://instagram.com/03_0902/" target="_blank">
-                  <img src="https://img.shields.io/badge/03_0902-E4405F?style=plastic&logo=instagram&logoColor=white" />
+                  <img
+                    src="https://img.shields.io/badge/03_0902-E4405F?style=plastic&logo=instagram&logoColor=white"
+                    width={100}
+                    height={40}
+                  />
                 </a>
                 &nbsp;&nbsp;&nbsp;
                 <a href="mailto:92212893@jmail.ac.kr" target="_blank">
-                  <img src="https://img.shields.io/badge/92212893@jmail.ac.kr-EA4335?style=plastic&logo=Gmail&logoColor=white" />
+                  <img
+                    src="https://img.shields.io/badge/92212893@jmail.ac.kr-EA4335?style=plastic&logo=Gmail&logoColor=white"
+                    width={220}
+                    height={40}
+                  />
                 </a>
               </p>
-              <Link href="/profile" className="btn btn-outline-light rounded">
-                Know more
-              </Link>
             </div>
           </div>
         </div>
