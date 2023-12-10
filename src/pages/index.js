@@ -1,9 +1,9 @@
 import Layout from '../components/Layout'
 import Link from 'next/link'
 
-import { skills, teamprojects, projects } from '../profile'
+import { skills, teamprojects, projects, repo } from '../profile'
 
-const Index = () => (
+export const Index = () => (
   <Layout>
     {/* Header Card */}
     <header className="row">
@@ -30,7 +30,7 @@ const Index = () => (
                   <img
                     src="https://img.shields.io/badge/github-181717?style=plastic&logo=github&logoColor=white"
                     width={100}
-                    height={40}
+                    height={30}
                   />
                 </a>
                 &nbsp;&nbsp;&nbsp;
@@ -41,7 +41,7 @@ const Index = () => (
                   <img
                     src="https://img.shields.io/badge/Notion-000000?style=plastic&logo=Notion&logoColor=white"
                     width={100}
-                    height={40}
+                    height={30}
                   />
                 </a>
                 &nbsp;&nbsp;&nbsp;
@@ -49,7 +49,7 @@ const Index = () => (
                   <img
                     src="https://img.shields.io/badge/Tistory-000000?style=plastic&logo=Tistory&logoColor=white"
                     width={100}
-                    height={40}
+                    height={30}
                   />
                 </a>
                 &nbsp;&nbsp;&nbsp;
@@ -59,7 +59,7 @@ const Index = () => (
                   <img
                     src="https://img.shields.io/badge/03_0902-E4405F?style=plastic&logo=instagram&logoColor=white"
                     width={100}
-                    height={40}
+                    height={30}
                   />
                 </a>
                 &nbsp;&nbsp;&nbsp;
@@ -67,7 +67,7 @@ const Index = () => (
                   <img
                     src="https://img.shields.io/badge/92212893@jmail.ac.kr-EA4335?style=plastic&logo=Gmail&logoColor=white"
                     width={220}
-                    height={40}
+                    height={30}
                   />
                 </a>
               </p>
@@ -124,7 +124,10 @@ const Index = () => (
                 </li>
               ))}
             </ul>
-            <Link href="/ZPG" className="btn btn-light">
+            <Link
+              href="https://github.com/kks0509/ex"
+              className="btn btn-light"
+            >
               Know More
             </Link>
           </div>
@@ -133,7 +136,7 @@ const Index = () => (
     </section>
     {/* profile */}
     <section>
-      <div className="row">
+      <div className="row mt-4">
         <div className="col-md-12">
           <div className="card card-body bg-dark">
             <div className="row">
@@ -160,6 +163,42 @@ const Index = () => (
                 </div>
               ))}
 
+              <div className="col-md-12 mt-4">
+                <div className="text-center"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {/* repo */}
+    <section>
+      <div className="row mt-4">
+        <div className="col-md-12">
+          <div className="card card-body bg-dark">
+            <div className="row">
+              <div className="col-md-12 my-2">
+                <h1 className="text-center text-light">Projects</h1>
+              </div>
+              {repo.map(({ name, url, image }, index) => (
+                <div className="col-md-6 p-2" key={index}>
+                  <div className="card h-200">
+                    <div className="overflow">
+                      <img
+                        src={`/${image}`}
+                        alt=""
+                        className="card-img-top"
+                        width={400}
+                        height={300}
+                      />
+                    </div>
+                    <div className="card-body">
+                      <h2>{name}</h2>
+                      <h3>{url}</h3>
+                    </div>
+                  </div>
+                </div>
+              ))}
               <div className="col-md-12 mt-4">
                 <div className="text-center"></div>
               </div>

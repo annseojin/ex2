@@ -1,15 +1,15 @@
 export const skills = [
   {
     skill: 'Javascript',
-    percentage: 10,
+    percentage: 50,
   },
   {
     skill: 'Nodejs',
-    percentage: 10,
+    percentage: 50,
   },
   {
     skill: 'HTML',
-    percentage: 10,
+    percentage: 30,
   },
   {
     skill: 'CSS',
@@ -66,5 +66,32 @@ export const projects = [
     name: '최중건',
     description: '92213134 / 백엔드',
     image: 'p5.jpg',
+  },
+]
+
+export const repo = [
+  {
+    id: '1',
+    name: 'webserver2',
+    url: 'https://webserver2.vercel.app/',
+    image: 'project1.jpg',
+  },
+  {
+    id: '2',
+    name: 'clerk2',
+    url: 'https://clerk2-one.vercel.app/',
+    image: 'project2.jpg',
+  },
+  {
+    id: '3',
+    name: 'dapara2',
+    url: 'https://dapara2-steel.vercel.app/',
+    image: 'project3.jpg',
+  },
+  {
+    id: '4',
+    name: 'crud2',
+    url: 'https://crud2-nine.vercel.app/',
+    image: 'project4.jpg',
   },
 ]
