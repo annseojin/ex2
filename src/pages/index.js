@@ -124,10 +124,7 @@ export const Index = () => (
                 </li>
               ))}
             </ul>
-            <Link
-              href="https://github.com/kks0509/ex"
-              className="btn btn-light"
-            >
+            <Link href="https://ex-sigma.vercel.app/" className="btn btn-light">
               Know More
             </Link>
           </div>
